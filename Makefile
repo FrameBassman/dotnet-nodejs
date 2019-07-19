@@ -2,7 +2,7 @@ build:
 	docker-compose \
 		--project-directory=${PWD} \
 		--project-name=dotnet-nodejs \
-		-f Deploy/docker-compose.yml \
+		-f docker-compose.yml \
 		build ${ARGS}
 
 push:
